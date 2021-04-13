@@ -10,7 +10,7 @@ install.packages("devtools")
 library(devtools)
 
 #Install TestPoissonity from github
-install_github('MMH1997/PoissonityTests')
+install_github('MMH1997/TestsPoissonity')
 library(TestPoissonity)
 
 ```
