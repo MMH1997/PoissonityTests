@@ -1,6 +1,6 @@
 Package: TestPoissonity
 Type: Package
-Title: Testing about Poissonity of a distribution
+Title: Goodness-of-fit test for Poisson Distribution.
 Version: 4.0.2
 Date: 2021-04-12
 Author: Manuel Méndez Hurtado
