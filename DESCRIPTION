@@ -1,0 +1,12 @@
+Package: TestPoissonity
+Type: Package
+Title: Testing about Poissonity of a distribution
+Version: 4.0.2
+Date: 2021-04-12
+Author: Manuel Méndez Hurtado
+Maintainer: The package maintainer <mmnedezinformatica@gmail.com>
+Description: Multivariante Poissonity goodness-of fit test.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
