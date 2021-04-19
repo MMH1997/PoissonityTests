@@ -24,6 +24,10 @@ Performs the empirical distribution function goodness-of-fit test of Poisson dis
 
 \details{The test of Poissonity \eqn{\Delta_{\infty}} was proposed by Puig and Weibb (2020). The test is based on some characterizations like the Binomial thinning operator for the probability generating function of a Poisson distribution. The test statistic is based on the \eqn{L \infty} norm.
 
+\eqn{\hat{\Delta}^\star_{\infty}=\max_{t \in [0,1]} (|\hat{g}(t) - [\hat{g}(t)(\frac{t+1}{2})]^2|)}
+
+\eqn{\hat{g}(t)} denotes the empirical pobability generating function of X.         
+         
 The test is implemented by parametric boostrap with \code{n.boot} replicates}
 
 \author{Manuel Mendez Hurtado \email{mmendezinformatica@gmail.com}}
