@@ -24,6 +24,11 @@ testTn_a(x, a, n.boot)
 
 \details{The pgf test of Poissonity \eqn{Tna} was proposed by Treutler (1995). The test is based on the similarity between the empirical probability-generating function of the random variable \eqn{X} and the pgf of a Poisson distribution with parameter mean of \eqn{X}. The test statistic is a weighted similarity measure.
 
+\eqn{T_{n,a} = \int_{0}^{1} [\bar{X}_{n} g_{n}(s) - g`_{n}(s)]^2 s^a ds}
+
+\eqn{g_{n}(s)} denotes pgf of X.
+         
+         
     The test is implemented by parametric boostrap with \code{n.boot} replicates.
   }
 
