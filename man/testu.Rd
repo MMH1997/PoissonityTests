@@ -23,6 +23,15 @@ Performs the disperssion index goodness-of-fit test of Poisson distribution with
 }
 \details{The test of Poissonity \eqn{u} is based on a normalization of the Disperssion Index, equal to 1 in a Poisson Distribution.
 
+\eqn{u = (D \sqrt{\frac{n - 1}{2(1 - 1/N)}}}
+
+\eqn{D} denotes the disperssion index of X.
+
+\eqn{N} denotes the sum of X.
+
+\eqn{n} denotes the length of X.
+         
+         
 The test is implemented by parametric boostrap with \code{n.boot} replicates or by normal approximation.
 }
 
