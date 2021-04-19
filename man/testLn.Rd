@@ -22,8 +22,10 @@ Performs the empirical distribution function goodness-of-fit test of Poisson dis
 \item{mean}{sample mean}
 }
 
-\details{The edf test of Poissonity \eqn{Cn} was proposed by Klar (2000). The test is based on the similarity between the edf of the random variable \eqn{X} and the cdf of a Poisson distribution with parameter mean of \eqn{X}. The test statistic is created working in the \eqn{l1} space of all sequences satisfying \eqn{\sum{k \ge 0} |X_{k}| < \infty.}
+\details{The edf test of Poissonity \eqn{Cn} was proposed by Klar (2000). The test is based on the similarity between the edf of the random variable \eqn{X}, \eqn{F_{n}(k)}, and the cdf of a Poisson distribution with parameter \eqn{\lambda = \hat{X}}, \eqn{F(k,\hat{\lambda}_{n})}. The test statistic is created working in the \eqn{l1} space of all sequences satisfying \eqn{\sum{k \ge 0} |X_{k}| < \infty.}
 
+\eqn{L_{n} = \sum_{k \ge 0} \sqrt{n} |F_{n}(k) - F(k,\hat{\lambda}_{n})|}
+         
 The test is implemented by parametric boostrap with \code{n.boot} replicates}
 
 \author{Manuel Mendez Hurtado \email{mmendezinformatica@gmail.com}}
