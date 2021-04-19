@@ -24,6 +24,14 @@ testRn(x, n.boot)
 
 \details{The pgf test of Poissonity \eqn{Rn} was proposed by Rueda et al (1991). The test is based on the similarity between the empirical probability-generating function of the random variable \eqn{X} and the pgf of a Poisson distribution with parameter mean of \eqn{X}. The test statistic is a square similarity measure.
 
+\eqn{R_{n} = \int_{0}^{1} G^2_{n}(s) ds}
+
+\eqn{G_{n}(s)} denotes \eqn{G_{n}(s) = \sqrt{n} (g_{n}(s) - g(s;\hat{\lambda}_{n}))}
+
+\eqn{g_{n}(u)} denotes pgf of X
+
+\eqn{g(u,\hat{\lambda})} denotes generating function of Poisson distribution with parameter \eqn{\lambda = \hat{X}}, \eqn{F(k,\hat{\lambda}_{n})}.         
+         
     The test is implemented by parametric boostrap with \code{n.boot} replicates.
   }
 
