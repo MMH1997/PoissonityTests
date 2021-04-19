@@ -22,7 +22,9 @@ Performs the empirical distribution function goodness-of-fit test of Poisson dis
 \item{mean}{sample mean}
 }
 
-\details{The edf test of Poissonity \eqn{Kn} was proposed by Henze (1996). The test is based on the similarity between the edf of the random variable \eqn{X} and the cdf of a Poisson distribution with parameter mean of \eqn{X}.
+\details{The edf test of Poissonity \eqn{Cn} was proposed by Henze (1996). The test is based on the similarity between the edf of the random variable \eqn{X}, \eqn{F_{n}(k)}, and the cdf of a Poisson distribution with parameter \eqn{\lambda = \hat{X}}, \eqn{F(k,\hat{\lambda}_{n})}. The test statistic is a Cramer-von-Mises type of distance.
+
+
 \eqn{K_{n} = \sup_{k \ge 0} \sqrt{n} |F_{n}(k) - F(k,\hat{\lambda}_{n})|}
 The test is implemented by parametric boostrap with \code{n.boot} replicates}
 
