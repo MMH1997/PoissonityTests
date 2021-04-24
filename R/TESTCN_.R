@@ -7,7 +7,7 @@ testCn_ = function(x,n.boot){
   options(warn = -1)
     Cn_=function(z) {if (sum(z) == 0) {0}
     else {ecdfz=ecdf(z)
-    f1=function(y) {(ecdfz(y) - ppois(y, mean(z)))*
+    f1=function(y) {(ecdfz(y) - ppois(y, mean(z)))^2*
     (sum(z == y)/length(z))}
     resf11=sum(f1(min(z):max(z)))
     Cn_=length(z) * resf11
