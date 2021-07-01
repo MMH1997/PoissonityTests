@@ -1,5 +1,6 @@
-The aim of TestPoissonity is to determine if a sample follows a Poisson distribution using goodness-of-fit test.
-
+The aim of TestPoissonity is to determine if a sample follows a Poisson distribution using goodness-of-fit tests.
+To find the p-value, TestPoissonity usually uses a parametric boostrap method. 
+ 
 
 
 ## Instalation
