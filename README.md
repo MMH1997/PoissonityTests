@@ -6,7 +6,13 @@ To find the p-value, TestPoissonity usually uses a parametric boostrap method.
 ## Instalation
 
 ```{r }
+#Previous packages
+install.packages("cli")
+install.packages("pkgload")
+install.packages("remotes")
+
 #Install devtools from CRAN
+
 install.packages("devtools")
 library(devtools)
 
