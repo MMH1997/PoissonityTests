@@ -7,7 +7,7 @@ testLn = function(x,n.boot){
   options(warn = -1)
   Ln=function(z) {if (sum(z) == 0) {0}
     else {ecdfz=ecdf(z)
-    f1=function(y) {sqrt(z) * abs((ecdfz(y) - ppois(y, mean(z))))}
+    f1=function(y) {sqrt(length(z)) * abs((ecdfz(y) - ppois(y, mean(z))))}
     resf11=sum(f1(min(z):max(z)))
     Ln = return(resf11)
     }
